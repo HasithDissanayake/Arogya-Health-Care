@@ -1,0 +1,125 @@
+.header {
+    background: #41AEA9;
+    /* color: rgb(175, 235, 229); */
+    padding: 20px;
+    text-align: center;
+    border-radius: 15px;
+    font-family: "Roboto", "Segoe UI", Arial, sans-serif;
+}
+
+#headername {
+    display: block;
+    color: #2c524e;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+    border-radius: 15px;
+    margin-right: 2px;
+    font-family: "Roboto", "Segoe UI", Arial, sans-serif;
+    font-size: larger;
+}
+
+.activenav {
+    list-style-type: none;
+    margin-top: 5px;
+    border-radius: 10px;
+    padding: 0;
+    overflow: hidden;
+    background-color: #2c524e;
+    /* position: fixed; */
+    /* top: 10%; */
+    width: 100%;
+    font-family: "Roboto", "Segoe UI", Arial, sans-serif;
+}
+
+.nav {
+    float: left;
+}
+
+#navlog {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-radius: 10px;
+    /* margin-right: 2px; */
+    transition-duration: 0.4s;
+}
+
+li a:hover:not(.active) {
+    background-color: #41AEA9;
+}
+
+.active {
+    background-color: #022420;
+}
+
+.footer {
+    background-color: #41AEA9;
+    text-align: center;
+    padding: 1px;
+    font-family: "Roboto", "Segoe UI", Arial, sans-serif;
+}
+
+h1,
+h2 {
+    color: #0d2926;
+    font-family: "Roboto", "Segoe UI", Arial, sans-serif;
+}
+
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+
+/* Hide scrollbar for IE, Edge and Firefox */
+
+body {
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+}
+
+#myBtn {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Fixed/sticky position */
+    bottom: 110px;
+    /* Place the button at the bottom of the page */
+    right: 35px;
+    /* Place the button 30px from the right */
+    z-index: 99;
+    /* Make sure it does not overlap */
+    border: none;
+    /* Remove borders */
+    outline: none;
+    /* Remove outline */
+    background-color: #2c524e;
+    /* Set a background color */
+    color: white;
+    /* Text color */
+    cursor: pointer;
+    /* Add a mouse pointer on hover */
+    padding: 8px;
+    /* Some padding */
+    border-radius: 10px;
+    /* Rounded corners */
+    font-size: 15px;
+    /* Increase font size */
+    transition-duration: 0.4s;
+}
+
+#myBtn:hover {
+    background-color: #41AEA9;
+    /* Add a dark-grey background on hover */
+}
